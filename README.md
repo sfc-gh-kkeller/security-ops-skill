@@ -38,7 +38,7 @@ This skill enables Cortex Code to act as an AI-powered security analyst that can
 │                            ▼                                                     │
 │  ┌────────────────────────────────────────────────────────────────────────────┐ │
 │  │                         INGESTION LAYER                                     │ │
-│  │  Snowpipe Streaming │ OpenFlow (NiFi) │ Snowflake Postgres CDC │ Kafka    │ │
+│  │  Snowpipe Streaming │ OpenFlow (NiFi) │ Kafka Connector │ REST API   │ │
 │  └────────────────────────────────────────────────────────────────────────────┘ │
 │                            │                                                     │
 │                            ▼                                                     │
@@ -119,7 +119,7 @@ Open Cortex Code and ask:
 | **Dynamic Tables** | Detection pipelines | 1-5 minutes |
 | **Interactive Tables** | Dashboard queries | Sub-second |
 | **Hybrid Tables** | Case management, IOC tracking | Milliseconds |
-| **Snowflake Postgres** | High-frequency log ingestion | Milliseconds |
+| **Kafka Connector** | High-frequency log ingestion | Milliseconds |
 | **SPCS Streamlit** | Real-time SOC dashboards | Sub-second |
 
 ### Integration Options
@@ -205,7 +205,6 @@ ORDER BY query_start_time DESC;
 
 ## Resources
 
-- [Snowflake Security Best Practices](https://docs.snowflake.com/en/user-guide/security-best-practices)
 - [Dynamic Tables Documentation](https://docs.snowflake.com/en/user-guide/dynamic-tables-about)
 - [Interactive Tables Documentation](https://docs.snowflake.com/en/user-guide/interactive)
 - [MITRE ATT&CK Framework](https://attack.mitre.org/)
@@ -217,4 +216,4 @@ MIT License - See LICENSE file for details.
 
 ---
 
-**Built for Snowflake Security Operations** | Powered by Cortex Code
+**AI-Powered Security Operations** | Powered by Cortex Code
